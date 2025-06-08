@@ -1,0 +1,8 @@
+// Retrieve all books
+db.books.find({})
+
+// Retrieve books in genre 'fiction'
+db.books.find({ genre: "fiction" })
+
+// Retrieve only available books
+db.books.find({ available: true })
